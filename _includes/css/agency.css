@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: sofia-pro, "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
@@ -172,11 +172,11 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: white;
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: sofia-pro,"Times New Roman", serif;
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -192,25 +192,25 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #{{ site.data.template.color.primary }};
-    background-color: #{{ site.data.template.color.primary }};
+    border-color: #fff;
+    background-color: #fff;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: #{{ site.data.template.color.primary}};
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: #{{ site.data.template.color.highlight-bg }};
 }
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: {{ site.data.template.font.secondary }};
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #{{ site.data.template.color.primary }};
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
@@ -219,19 +219,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.highlight }};
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.highlight }};
+    background-color: #{{ site.data.template.color.highlight-bg }};
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: #{{ site.data.template.color.highlight-bg }};
 }
 
 @media(min-width:768px) {
@@ -252,12 +252,13 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-nav>.active>a {
-        border-radius: 3px;
+        border-radius: 0px;
     }
 
     .navbar-default.navbar-shrink {
-        padding: 10px 0;
-        background-color: #222;
+        padding: 0;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -266,16 +267,10 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
+    height: 100vh;
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-color: transparent
 }
 
 header .intro-text {
@@ -864,4 +859,15 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
+}
+
+/************* BOOTSRTAP OVERWRITES *************/
+@media (min-width: 768px) {
+  .container {
+    width: 90vw;
+  }
+}
+
+.border-btn {
+  border: 1px solid #{{site.data.template.color.primary}};
 }

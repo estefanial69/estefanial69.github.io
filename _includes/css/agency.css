@@ -863,11 +863,36 @@ body {
 
 /************* BOOTSRTAP OVERWRITES *************/
 @media (min-width: 768px) {
-  .container {
+  .container.xl {
     width: 90vw;
   }
 }
 
 .border-btn {
   border: 1px solid #{{site.data.template.color.primary}};
+}
+
+.justified {
+  text-align: justify;
+}
+
+@media (min-width: 1200px) {
+  .navbar-right a {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+  .navbar-right a {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-nav.navbar-right>li>a {
+    font-size: 1.3vw;
+    letter-spacing: normal;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
 }

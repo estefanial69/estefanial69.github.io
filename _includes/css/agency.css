@@ -897,16 +897,24 @@ body {
   }
 }
 
-.lt.image {
-  overflow: hidden
+#gallery {
+  padding: 0;
 }
 
-.lt.image>.lt-body>img {
+.gal-wrapper {
+  overflow: hidden;
+  display: grid;
+  grid-gap: 0;
+  grid-auto-flow: dense;
+}
+
+.gal-wrapper>.gal-body {
+  width: 100%;
+  height: calc(width*1);
+}
+
+.gal-wrapper>.gal-body>img {
   width:100%;
   height:100%;
   object-fit:cover;
-}
-
-#gallery {
-  padding: 0;
 }

@@ -1,7 +1,7 @@
 <!-- Gallery Section -->
     <section id="gallery">
       <div class="gal-wrapper" style="grid-template-columns: repeat({{page.gallery-columns}}, 1fr);">
-        {% for item in site.gallery %}
+        {% for item in page.gallery %}
         <div class="gal-body" style="grid-column: span {{item.columns}}; grid-row: span {{item.rows}}">
           <img src="{{item.path}}">
         </div>

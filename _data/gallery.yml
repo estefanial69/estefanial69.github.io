@@ -18,7 +18,7 @@
 - path: "img/gallery/MPS1813.jpg"
   desc: "Fotografo: NOMBRE_AQUI"
   columns: 1
-  rows: 3
+  rows: 2
 
 - path: "img/gallery/MPS1840.jpg"
   desc: "Fotografo: NOMBRE_AQUI"

@@ -2,9 +2,17 @@
     <section id="gallery">
       <div class="gal-wrapper" style="grid-template-columns: repeat({{page.gallery-columns}}, 1fr);">
         {% for item in page.gallery %}
-        <div class="gal-body" style="grid-column: span {{item.columns}}; grid-row: span {{item.rows}}">
-          <img src="{{item.path}}">
-        </div>
+        {% assign id = item.path | split: "/" %}
+        {% assign id = id[-1] | split: "." %}
+        {% assign id = id[0] %}
+          <a href="#portfolioModal{{ id }}" class="portfolio-link gal-body" data-toggle="modal" style="grid-column: span {{item.columns}}; grid-row: span {{item.rows}}">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-search-plus fa-2x"></i>
+              </div>
+            </div>
+            <img src="{{item.path}}">
+          </a>
         {% endfor %}
       </div>
     </section>

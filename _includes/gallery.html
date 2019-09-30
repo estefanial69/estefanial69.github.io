@@ -1,6 +1,6 @@
 <!-- Gallery Section -->
     <section id="gallery">
-      <div class="gal-wrapper" style="grid-template-columns: repeat({{page.gallery-columns}}, 1fr);">
+      <div class="gal-wrapper">
         {% for item in page.gallery %}
         {% assign id = item.path | split: "/" %}
         {% assign id = id[-1] | split: "." %}

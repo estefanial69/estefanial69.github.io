@@ -15,7 +15,7 @@
 # md --> middle screens (tablets, small computer screens). Number of columns: 6
 # lg --> large screens (normal to big computer screens). Number of columns: 8
 
-- path: "/img/gallery/MPS1813.jpg"
+- path: "img/gallery/MPS1813.jpg"
   desc: "Fotografo: NOMBRE_AQUI"
   columns: 1
   rows: 3

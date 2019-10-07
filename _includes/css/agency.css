@@ -936,12 +936,7 @@ body {
 .gal-wrapper>.gal-body {
   width: 100%;
   position: relative;
-}
-
-.gal-wrapper>.gal-body>img {
-  width:100%;
-  height:100%;
-  object-fit:cover;
+  overflow: hidden;
 }
 
 .gal-wrapper>.gal-body>.portfolio-hover {
@@ -956,8 +951,20 @@ body {
     background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .2);
 }
 
-.gal-wrapper>.gal-body>.portfolio-hover:hover {
-    opacity: 1;
+.gal-wrapper>.gal-body:hover>.portfolio-hover {
+  opacity: 1;
+  z-index: 2;
+}
+
+.gal-wrapper>.gal-body>img {
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transition: transform .5s ease;
+}
+
+.gal-wrapper>.gal-body:hover>img {
+  transform: scale(1.1);
 }
 
 .gal-wrapper>.gal-body>.portfolio-hover .portfolio-hover-content {

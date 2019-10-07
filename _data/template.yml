@@ -9,11 +9,5 @@ color:
 
 # Font Families
 font:
-  primary: sofia-pro,"Times New Roman", serif
-  secondary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
-
-gallery:
-  xs-columns: 2
-  sm-columns: 2
-  md-columns: 4
-  lg-columns: 4
+  primary: '"Times New Roman", serif'
+  secondary: '"Karla", sans-serif'

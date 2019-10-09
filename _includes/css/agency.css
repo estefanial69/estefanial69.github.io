@@ -340,6 +340,12 @@ section h2.section-heading {
     font-size: 40px;
 }
 
+@media (max-width: 424px) {
+  section h2.section-heading {
+    font-size: 9vw;
+  }
+}
+
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
@@ -990,4 +996,9 @@ body {
 }
 .carousel.slide.thumbnail-indicator .carousel-indicators li:hover img {
   opacity: 0.75;
+}
+
+.timeline-image.circle {
+  border-radius: 50%;
+  overflow: hidden;
 }

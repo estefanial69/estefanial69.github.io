@@ -53,8 +53,6 @@ $('.carousel.thumbnail-indicator').on('slide.bs.carousel', function() {
     var offset = activePos - width/2;
     var scrollPos = thumbnails.parent().scrollLeft() + offset;
     scrollPos = Math.max(Math.min(scrollPos, maxScroll), 0);
-    console.log(scrollPos);
     thumbnails.parent().animate({scrollLeft: scrollPos}, 500);
-    //thumbnails.parent().scrollLeft(scrollPos);
   }, 10);
 });

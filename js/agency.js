@@ -43,7 +43,6 @@ $('.carousel.thumbnail-indicator').on('slide.bs.carousel', function() {
     var thumbnails = $(carousel).find(".carousel-indicators").children();
     // Get the current thumbnail
     var currentThumbnail = $(carousel).find(".carousel-indicators .active");
-    console.log(currentThumbnail);
     // Get thumbnail's position
     var activePos = currentThumbnail.offset().left;// + currentThumbnail.width()/2;
 
@@ -53,8 +52,6 @@ $('.carousel.thumbnail-indicator').on('slide.bs.carousel', function() {
     var offset = activePos - width/2;
     var scrollPos = thumbnails.parent().scrollLeft() + offset;
     scrollPos = Math.max(Math.min(scrollPos, maxScroll), 0);
-    console.log(scrollPos);
     thumbnails.parent().animate({scrollLeft: scrollPos}, 500);
-    //thumbnails.parent().scrollLeft(scrollPos);
   }, 10);
 });

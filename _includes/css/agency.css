@@ -965,7 +965,6 @@ body {
   text-align: left;
   white-space: nowrap;
   width: 100%;
-  scroll-behavior: smooth;
 }
 
 .carousel.slide.thumbnail-indicator .carousel-indicators li {

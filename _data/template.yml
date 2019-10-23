@@ -11,3 +11,4 @@ color:
 font:
   primary: '"Times New Roman", serif'
   secondary: '"Karla", sans-serif'
+  ternary: '"Pathway Gothic One", sans-serif'

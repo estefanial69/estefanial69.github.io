@@ -183,6 +183,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default.navbar-shrink .navbar-brand>p {
   margin-top: 0;
   line-height: 1;
+  font-size: 12px;
 }
 
 .navbar-default .navbar-brand>p {
@@ -190,6 +191,14 @@ fieldset[disabled] .btn-xl.active {
   text-transform: uppercase;
   margin-top: 5px;
 }
+
+@media(max-width:767px) {
+  .navbar-default .navbar-brand>p {
+    line-height: 1;
+    font-size: 12px;
+  }
+}
+
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
@@ -1001,4 +1010,50 @@ body {
 .timeline-image.circle {
   border-radius: 50%;
   overflow: hidden;
+}
+
+.timeline-image>img {
+  transition: all .35s ease;
+}
+
+.timeline>li>a:hover>.timeline-image>img {
+  transform: scale(1.1);
+}
+
+.inv-item {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  transition: all .35s ease;
+}
+
+a:hover .inv-item {
+  text-decoration: none;
+  transform: scale(1.03);
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+.inv-item h3 {
+  color: white;
+  font-family: {{site.data.template.font.ternary }};
+  font-size: 35px;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  text-decoration: none;
+}
+
+a:hover .inv-item h3 {
+  text-decoration: none;
+}
+
+.inv-item p {
+  color: #342f24;
+  font-family: {{site.data.template.font.secondary }};
 }

@@ -1,9 +1,9 @@
 ---
 title: ACTO DE FUGA
 subtitle:
-- 'FUERA DE FASE COLECTIVO'
-- 'FT SANTIAGO NAVAS'
-description: Ensamble de danza.
+  - FUERA DE FASE COLECTIVO
+  - FT SANTIAGO NAVAS
+description:
 image: /img/projects/1.png
 bg_color: '#8aa69a'
 gallery:
@@ -29,10 +29,3 @@ gallery:
     desc:
 ---
 
-**Direcci&oacute;n:** Juliana Atuesta
-
-**Ensamble de danza.**
-
-**Fotos:** Luisa Ladino
-
-**Edici&oacute;n:** Laura Monroy-Garc&iacute;a

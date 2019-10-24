@@ -1041,7 +1041,7 @@ a:focus {
   text-decoration: none;
 }
 
-.inv-item h3 {
+.inv-item h3, .column-grid-hover-content h3 {
   color: white;
   font-family: {{site.data.template.font.ternary }};
   font-size: 35px;
@@ -1049,11 +1049,21 @@ a:focus {
   text-decoration: none;
 }
 
+.column-grid-hover-content h3 {
+  font-size: 55px;
+  margin-bottom: 15px !important;
+}
+
 a:hover .inv-item h3 {
   text-decoration: none;
 }
 
-.inv-item p {
+.inv-item p, .column-grid-hover-content p {
   color: #342f24;
   font-family: {{site.data.template.font.secondary }};
+}
+
+.column-grid-hover-content p {
+  font-size: 20px;
+  line-height: 15px;
 }

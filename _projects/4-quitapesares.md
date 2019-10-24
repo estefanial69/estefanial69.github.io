@@ -8,25 +8,17 @@ description:
 image: /img/projects/3.png
 bg_color: '#c6898a'
 gallery:
-  - path: /img/projects/maravillosas-ocupaciones/1.jpg
+  - path: /uploads/img-3187-01-alta-quitapesares-2019-by-alexasinomas-2.jpg
     desc:
-  - path: /img/projects/maravillosas-ocupaciones/2.jpg
+  - path: /uploads/img-3229-01-alta-quitapesares-2019-by-alexasinomas.jpg
     desc:
-  - path: /img/projects/maravillosas-ocupaciones/3.jpg
+  - path: /uploads/img-6773.JPG
     desc:
-  - path: /img/projects/maravillosas-ocupaciones/5.jpg
+  - path: /uploads/img-6784.JPG
     desc:
-  - path: /img/projects/maravillosas-ocupaciones/6.jpg
+  - path: /uploads/img-6980.JPG
     desc:
-  - path: /img/projects/maravillosas-ocupaciones/7.jpg
-    desc:
-  - path: /img/projects/maravillosas-ocupaciones/8.jpg
-    desc:
-  - path: /img/projects/maravillosas-ocupaciones/9.jpg
-    desc:
-  - path: /img/projects/maravillosas-ocupaciones/10.jpg
-    desc:
-  - path: /img/projects/maravillosas-ocupaciones/11.JPG
+  - path: /uploads/img-7640.JPG
     desc:
 ---
 

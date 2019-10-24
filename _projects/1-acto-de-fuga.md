@@ -7,25 +7,41 @@ description:
 image: /img/projects/1.png
 bg_color: '#8aa69a'
 gallery:
-  - path: /img/projects/maravillosas-ocupaciones/1.jpg
+  - path: /uploads/1portada.jpg
     desc:
-  - path: /img/projects/maravillosas-ocupaciones/2.jpg
+  - path: /uploads/2.jpg
     desc:
-  - path: /img/projects/maravillosas-ocupaciones/3.jpg
+  - path: /uploads/3.jpg
     desc:
-  - path: /img/projects/maravillosas-ocupaciones/5.jpg
+  - path: /uploads/4.jpg
     desc:
-  - path: /img/projects/maravillosas-ocupaciones/6.jpg
+  - path: /uploads/5.jpg
     desc:
-  - path: /img/projects/maravillosas-ocupaciones/7.jpg
+  - path: /uploads/6.jpg
     desc:
-  - path: /img/projects/maravillosas-ocupaciones/8.jpg
+  - path: /uploads/7.jpg
     desc:
-  - path: /img/projects/maravillosas-ocupaciones/9.jpg
+  - path: /uploads/8.jpg
     desc:
-  - path: /img/projects/maravillosas-ocupaciones/10.jpg
+  - path: /uploads/9.jpg
     desc:
-  - path: /img/projects/maravillosas-ocupaciones/11.JPG
+  - path: /uploads/10.jpg
+    desc:
+  - path: /uploads/11.jpg
+    desc:
+  - path: /uploads/111.jpg
+    desc:
+  - path: /uploads/12.jpg
+    desc:
+  - path: /uploads/13.jpg
+    desc:
+  - path: /uploads/14.jpg
+    desc:
+  - path: /uploads/15.jpg
+    desc:
+  - path: /uploads/actodefuga-casamamifera-39.jpg
+    desc:
+  - path: /uploads/actodefuga-casamamifera-308.jpg
     desc:
 ---
 

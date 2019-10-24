@@ -1050,7 +1050,7 @@ a:focus {
 }
 
 .column-grid-hover-content h3 {
-  font-size: 55px;
+  font-size: 43px;
   margin-bottom: 15px !important;
 }
 
@@ -1064,6 +1064,6 @@ a:hover .inv-item h3 {
 }
 
 .column-grid-hover-content p {
-  font-size: 20px;
-  line-height: 15px;
+  font-size: 17px;
+  line-height: 10px;
 }

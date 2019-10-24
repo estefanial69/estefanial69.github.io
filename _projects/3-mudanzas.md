@@ -8,17 +8,17 @@ description:
 image: /img/projects/4.png
 bg_color: '#e1a987'
 gallery:
-  - path: /img/projects/maravillosas-ocupaciones/1.jpg
+  - path: /uploads/1-1.JPG
     desc:
-  - path: /img/projects/maravillosas-ocupaciones/2.jpg
+  - path: /uploads/2-2.JPG
     desc:
-  - path: /img/projects/maravillosas-ocupaciones/3.jpg
+  - path: /uploads/3-2.JPG
     desc:
-  - path: /img/projects/maravillosas-ocupaciones/5.jpg
+  - path: /uploads/4-2.JPG
     desc:
-  - path: /img/projects/maravillosas-ocupaciones/6.jpg
+  - path: /uploads/5-1.JPG
     desc:
-  - path: /img/projects/maravillosas-ocupaciones/7.jpg
+  - path: /uploads/6-2.JPG
     desc:
   - path: /img/projects/maravillosas-ocupaciones/8.jpg
     desc:

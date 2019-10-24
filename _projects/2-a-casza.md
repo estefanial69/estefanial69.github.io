@@ -1,5 +1,5 @@
 ---
-title: A CASA
+title: A CASZA
 subtitle:
   - DIRECCIÓN
   - FUERA DE FASE COLECTIVO
@@ -28,4 +28,3 @@ gallery:
   - path: /img/projects/maravillosas-ocupaciones/11.JPG
     desc:
 ---
-

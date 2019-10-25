@@ -19,7 +19,9 @@
             <h2>{{ item.title }}</h2>
             <hr class="star-primary">
             <article class="column-grid-content">
+              {% if item.gallery %}
               {% include carousel.html gallery=item.gallery galleryid=galleryid %}
+              {% endif %}
               {{ item.content}}
             </article>
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>

@@ -1,0 +1,74 @@
+<!-- Evaluations Section -->
+<section id="evaluations" class="text-center bg-light-gray">
+  <div class="container">
+    <h2 class="section-heading editable underlined">Evaluaciones</h2>
+    <div class="col-sm-4 gallery-anchor-container">
+      {% assign idx = 0 %}
+      {% assign gen_id = "evaluations" %}
+      {% assign item = site.evaluations[idx] %}
+      {% assign color = item.bg_color | split: "#" %}
+      {% assign color = color[1] %}
+      <a href="#{{gen_id}}Modal{{idx | plus: 1}}" class="main-gallery-anchor large" data-toggle="modal">
+        <div class="img-text" style="background-color: rgba({{ color | hex_to_rgb | join: ','}},0.5)">
+          <h3>{{item.title}}</h3>
+        </div>
+        <img src="{{item.image}}"></img>
+      </a>
+    </div>
+    <div class="col-sm-8">
+      <div class="row">
+        <div class="col-sm-6 gallery-anchor-container">
+          {% assign idx = 1 %}
+          {% assign item = site.evaluations[idx] %}
+          {% assign color = item.bg_color | split: "#" %}
+          {% assign color = color[1] %}
+          <a href="#{{gen_id}}Modal{{idx | plus: 1}}" class="main-gallery-anchor" data-toggle="modal">
+            <div class="img-text" style="background-color: rgba({{ color | hex_to_rgb | join: ','}},0.5)">
+              <h3>{{item.title}}</h3>
+            </div>
+            <img src="{{item.image}}"></img>
+          </a>
+        </div>
+        <div class="col-sm-6 gallery-anchor-container">
+          {% assign idx = 2 %}
+          {% assign item = site.evaluations[idx] %}
+          {% assign color = item.bg_color | split: "#" %}
+          {% assign color = color[1] %}
+          <a href="#{{gen_id}}Modal{{idx | plus: 1}}" class="main-gallery-anchor" data-toggle="modal">
+            <div class="img-text" style="background-color: rgba({{ color | hex_to_rgb | join: ','}},0.5)">
+              <h3>{{item.title}}</h3>
+            </div>
+            <img src="{{item.image}}"></img>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 gallery-anchor-container">
+          {% assign idx = 3 %}
+          {% assign item = site.evaluations[idx] %}
+          {% assign color = item.bg_color | split: "#" %}
+          {% assign color = color[1] %}
+          <a href="#{{gen_id}}Modal{{idx | plus: 1}}" class="main-gallery-anchor" data-toggle="modal">
+            <div class="img-text" style="background-color: rgba({{ color | hex_to_rgb | join: ','}},0.5)">
+              <h3>{{item.title}}</h3>
+            </div>
+            <img src="{{item.image}}"></img>
+          </a>
+        </div>
+        <div class="col-sm-6 gallery-anchor-container">
+          {% assign idx = 4 %}
+          {% assign item = site.evaluations[idx] %}
+          {% assign color = item.bg_color | split: "#" %}
+          {% assign color = color[1] %}
+          <a href="#{{gen_id}}Modal{{idx | plus: 1}}" class="main-gallery-anchor" data-toggle="modal">
+            <div class="img-text" style="background-color: rgba({{ color | hex_to_rgb | join: ','}},0.5)">
+              <h3>{{item.title}}</h3>
+            </div>
+            <img src="{{item.image}}"></img>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include column-grid-modals.html identifier=gen_id items=site.evaluations %}

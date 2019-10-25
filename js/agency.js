@@ -56,3 +56,16 @@ $('.carousel.thumbnail-indicator').on('slide.bs.carousel', function() {
     //thumbnails.parent().scrollLeft(scrollPos);
   }, 10);
 });
+
+$(document).ready(function() {
+  $('.parallax-window').parallax({
+    naturalWidth: 600,
+    naturalHeight: 400,
+    speed: 0.4
+  })
+
+  setTimeout(function() {
+    $('video')[0].play();
+  }, 2000);
+
+})

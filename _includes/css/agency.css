@@ -1180,3 +1180,15 @@ a:hover .inv-item h3 {
     padding-top: 100%;
   }
 }
+
+#parallax-video {
+  position: unset !important;
+}
+
+#parallax-video>div {
+  background-image: url("{{'/img/tefa-video-sepia.jpg' | prepend: site.baseurl }}") !important;
+}
+
+#parallax-video video {
+  width: unset;
+}

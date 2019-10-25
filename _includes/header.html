@@ -1,55 +1,61 @@
 <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container xl">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll editable" href="#page-top">{{site.title}}<p>{{site.slogan}}</p></a>
-            </div>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container xl">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand page-scroll editable" href="#page-top">{{site.title}}<p>{{site.slogan}}</p></a>
+    </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll editable" href="#statement">Statement</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll editable" href="#reel">Reel</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll editable" href="#gallery">Galería</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll editable" href="#invs">Investigaciones</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll editable" href="#evaluations">Evaluaciones</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll border-btn editable" href="#contact">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="#page-top"></a>
+        </li>
+        <li>
+          <a class="page-scroll editable" href="#statement">Statement</a>
+        </li>
+        <li>
+          <a class="page-scroll editable" href="#reel">Reel</a>
+        </li>
+        <li>
+          <a class="page-scroll editable" href="#gallery">Galería</a>
+        </li>
+        <li>
+          <a class="page-scroll editable" href="#invs">Investigaciones</a>
+        </li>
+        <li>
+          <a class="page-scroll editable" href="#evaluations">Evaluaciones</a>
+        </li>
+        <li>
+          <a class="page-scroll border-btn editable" href="#contact">Contacto</a>
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
 
-    <!-- Header -->
-    <header class="parallax-window" data-parallax="scroll" data-image-src="img/header-bg.jpg" data-speed="0.3">
-        <div class="container">
-        </div>
-    </header>
+<!-- Header -->
+<header class="parallax-window">
+  <div class="parallax-slider">
+    <div id="parallax-video" data-vide-bg="{{'/img/tefa-video-sepia.mp4' | prepend: site.baseurl }}" style="height:100%;">
+    </div>
+  </div>
+  <div class="container centered main-title">
+    <h1>{{site.data.template.title}}</h1>
+    <h4>{{site.data.template.subtitle}}</h4>
+  </div>
+</header>
 <!--
-        {% for page in site.pages %}
-          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-        {% endfor %}
- -->
+{% for page in site.pages %}
+{% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+{% endfor %}
+-->

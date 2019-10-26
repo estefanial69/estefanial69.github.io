@@ -34,10 +34,10 @@ displays a modal with the content of the item.
   {% for item in items %}
   {% assign item-column = forloop.index | minus: 1 | modulo: include.lg-columns %}
   {% if item-column == i %}
-  {% assign hex_color = item.bg_color | split: '#' %}
-  {% assign color = hex_color[-1] %}
   <a href="#{{ identifier }}Modal{{ forloop.index }}" class="column-grid-link" data-toggle="modal">
-    <div class="column-grid-hover" style="background-color: rgba({{color | hex_to_rgb | join: ','}},.5)">
+    <div class="column-grid-hover">
+      <div class="column-grid-hover-bg" style="background-color: {{item.bg_color}}">
+      </div>
       <div class="column-grid-hover-content">
         <h3>{{item.title}}</h3>
         {% for subtitle in item.subtitle %}
@@ -62,7 +62,9 @@ displays a modal with the content of the item.
   {% assign hex_color = item.bg_color | split: '#' %}
   {% assign color = hex_color[-1] %}
   <a href="#{{ identifier }}Modal{{ forloop.index }}" class="column-grid-link" data-toggle="modal">
-    <div class="column-grid-hover" style="background-color: rgba({{color | hex_to_rgb | join: ','}},.5)">
+    <div class="column-grid-hover">
+      <div class="column-grid-hover-bg" style="background-color: {{item.bg_color}}">
+      </div>
       <div class="column-grid-hover-content">
         <h3>{{item.title}}</h3>
         {% for subtitle in item.subtitle %}
@@ -87,7 +89,9 @@ displays a modal with the content of the item.
   {% assign hex_color = item.bg_color | split: '#' %}
   {% assign color = hex_color[-1] %}
   <a href="#{{ identifier }}Modal{{ forloop.index }}" class="column-grid-link" data-toggle="modal">
-    <div class="column-grid-hover" style="background-color: rgba({{color | hex_to_rgb | join: ','}},.5)">
+    <div class="column-grid-hover">
+      <div class="column-grid-hover-bg" style="background-color: {{item.bg_color}}">
+      </div>
       <div class="column-grid-hover-content">
         <h3>{{item.title}}</h3>
         {% for subtitle in item.subtitle %}

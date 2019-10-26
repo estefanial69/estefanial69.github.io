@@ -2,7 +2,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+                    <span class="copyright">Copyright &copy; {{ site.data.template.title }} {{ 'now' | date: "%Y" }}</span>
+                    <span class="copyright"><a href="http://aristizabal95.github.io" target="_blank">Alejandro Aristizábal</a></span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
@@ -14,9 +15,7 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
+                        <li><a href="mailto:{{site.data.template.email}}">{{site.data.template.email}}</a>
                         </li>
                     </ul>
                 </div>

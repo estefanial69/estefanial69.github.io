@@ -1186,7 +1186,7 @@ a:hover .inv-item h3 {
 }
 
 #parallax-video>div {
-  background-image: url("{{'/img/tefa-video-sepia.jpg' | prepend: site.baseurl }}") !important;
+  background-image: url("{{'/img/landing-bg.jpg' | prepend: site.baseurl }}") !important;
 }
 
 #parallax-video video {

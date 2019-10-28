@@ -4,7 +4,7 @@ subtitle:
   - FUERA DE FASE COLECTIVO
   - FT SANTIAGO NAVAS
 description:
-image: /img/projects/1.png
+image: /uploads/001.jpg
 bg_color: '#8aa69a'
 gallery:
   - path: /uploads/1portada.jpg

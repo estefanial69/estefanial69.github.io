@@ -5,7 +5,7 @@ subtitle:
   - CONTEMPORÁNEA
   - HUMBERTO CANESSA
 description:
-image: /img/projects/4.png
+image: /uploads/004.jpg
 bg_color: '#e1a987'
 gallery:
   - path: /uploads/1-1.JPG

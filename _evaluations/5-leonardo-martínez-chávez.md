@@ -7,7 +7,7 @@ quote: >-
   expresividad”
 header:
 image: /uploads/leo-1---antonia.jpg
-bg_color: '#f8dba9'
+bg_color: '#a6a6a6'
 image_x_offset: 50%
 ---
 

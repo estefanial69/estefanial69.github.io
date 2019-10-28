@@ -4,7 +4,7 @@ subtitle:
   - DIRECCIÓN
   - FUERA DE FASE COLECTIVO
 description:
-image: /img/projects/2.png
+image: /uploads/005.jpg
 bg_color: '#f8dba9'
 gallery:
   - path: /uploads/1.jpg

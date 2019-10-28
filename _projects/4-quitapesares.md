@@ -5,7 +5,7 @@ subtitle:
   - CONTEMPORANEA
   - RAFAÉL NIEVES
 description:
-image: /img/projects/3.png
+image: /uploads/006.jpg
 bg_color: '#c6898a'
 gallery:
   - path: /uploads/img-3187-01-alta-quitapesares-2019-by-alexasinomas-2.jpg

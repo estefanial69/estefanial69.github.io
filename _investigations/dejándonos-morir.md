@@ -1,5 +1,5 @@
 ---
-file_path: /uploads/improvisación-y-expectativa---estefanía-lópez.pdf
+file_path: /uploads/dejándonos-morir.pdf
 title: DEJÁNDONOS MORIR
 bg_color: '#a6a6a6'
 descriptions:

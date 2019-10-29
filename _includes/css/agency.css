@@ -1046,7 +1046,13 @@ a:hover .inv-item h3 {
 
 .column-grid-hover-content p {
   font-size: 17px;
-  line-height: 10px;
+  line-height: 14px;
+}
+
+.column-grid-link>img {
+  height: 100%;
+  width: auto;
+  max-width: unset;
 }
 
 #evaluations .hover-expandable {

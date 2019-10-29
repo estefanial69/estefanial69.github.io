@@ -22,13 +22,20 @@ displays a modal with the content of the item.
 
 {% assign lg-columns = include.lg-columns | minus: 1 %}
 {% assign lg-col-size = 12 | divided_by: include.lg-columns %}
+{% assign lg-oc-cols = lg-col-size | times: include.lg-columns %}
+{% assign lg-pad = 12 | minus: lg-oc-cols | divided_by: 2 %}
 {% assign sm-columns = include.sm-columns | minus: 1 %}
 {% assign sm-col-size = 12 | divided_by: include.sm-columns %}
+{% assign sm-oc-cols = sm-col-size | times: include.sm-columns %}
+{% assign sm-pad = 12 | minus: sm-oc-cols | divided_by: 2 %}
 {% assign xs-columns = include.xs-columns | minus: 1 %}
 {% assign xs-col-size = 12 | divided_by: include.xs-columns %}
+{% assign xs-oc-cols = xs-col-size | times: include.xs-columns %}
+{% assign xs-pad = 12 | minus: xs-oc-cols | divided_by: 2 %}
 {% assign items = include.items %}
 {% assign identifier = include.identifier %}
 <!-- DISPLAY COLLAGE ON LARGE SCREENS -->
+<div class="col-md-{{lg-pad}} hidden-sm hidden-xs"></div>
 {% for i in (0..lg-columns) %}
 <div class="col-md-{{lg-col-size}} hidden-sm hidden-xs column-grid-item">
   {% for item in items %}
@@ -54,6 +61,7 @@ displays a modal with the content of the item.
 <!-- /DISPLAY COLLAGE ON LARGE SCREENS -->
 
 <!-- DISPLAY COLLAGE ON SMALL SCREENS -->
+<div class="col-sm-{{lg-pad}} hidden-md hidden-lg hidden-xs"></div>
 {% for i in (0..sm-columns) %}
 <div class="col-sm-{{sm-col-size}} hidden-md hidden-xs hidden-lg column-grid-item">
   {% for item in items %}
@@ -81,6 +89,7 @@ displays a modal with the content of the item.
 <!-- /DISPLAY COLLAGE ON SMALL SCREENS -->
 
 <!-- DISPLAY COLLAGE ON EXTRASMALL SCREES -->
+<div class="col-sm-{{lg-pad}} hidden-md hidden-lg hidden-sm"></div>
 {% for i in (0..xs-columns) %}
 <div class="col-xs-{{xs-col-size}} hidden-md hidden-sm hidden-lg column-grid-item">
   {% for item in items %}

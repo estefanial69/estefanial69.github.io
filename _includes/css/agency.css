@@ -1182,3 +1182,7 @@ a:hover .inv-item h3 {
 #gallery .credits {
   text-align: right;
 }
+
+.modal-body>p {
+  text-align: justify;
+}

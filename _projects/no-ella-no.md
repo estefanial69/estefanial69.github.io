@@ -1,11 +1,8 @@
 ---
 title: 'NO, ELLA NO'
 subtitle:
-  - ENSAMBLE DE DANZA
-  - CONTEMPORANEA
-  - 'DIRECCIÓN: SARAH STOTER'
-  - PONTIFICIA UNIVERSIDAD
-  - JAVERIANA
+  - ENSAMBLE DE DANZA CONTEMPORANEA
+  - SARAH STOTER
 description:
 image: /uploads/002.jpg
 bg_color: '#a6a6a6'

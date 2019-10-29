@@ -1052,7 +1052,9 @@ a:hover .inv-item h3 {
 .column-grid-link>img {
   height: 100%;
   width: auto;
+  min-width: 100%;
   max-width: unset;
+  flex: none;
 }
 
 #evaluations .hover-expandable {

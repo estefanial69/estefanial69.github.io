@@ -9,7 +9,7 @@
     <div class="row">
       <div class="col-lg-12">
         {% for item in site.investigations %}
-        <a href="{{item.filepath}}" target="_blank">
+        <a href="{{item.file_path}}" target="_blank">
           <div class="row inv-item" style="background-color: {{item.bg_color}}">
             <h3>{{item.title}}</h3>
             {% for desc in item.descriptions %}

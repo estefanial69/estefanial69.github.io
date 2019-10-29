@@ -1170,3 +1170,7 @@ a:hover .inv-item h3 {
 #parallax-video video {
   width: unset;
 }
+
+#gallery .credits {
+  text-align: right;
+}

@@ -7,12 +7,12 @@ description: "Write an awesome description for your new site here. You can edit 
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: "000000"
-  secondary: f5efec
-  secondary-dark: "333"
-  muted: "777"
-  highlight: "808080"
-  highlight-bg: "f5f5f5"
+  primary: "#000000"
+  secondary: "#f5efec"
+  secondary-dark: "#333"
+  muted: "#777"
+  highlight: "#808080"
+  highlight-bg: "#f5f5f5"
 
 # Font Families
 font:

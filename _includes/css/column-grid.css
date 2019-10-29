@@ -25,6 +25,12 @@
   transition: all ease .5s;
 }
 
+@media (max-width: 767px) {
+  .column-grid-item .column-grid-link .column-grid-hover {
+    opacity: 1;
+  }
+}
+
 .column-grid-item .column-grid-link .column-grid-hover .column-grid-hover-bg {
   position: absolute;
   top: 0;

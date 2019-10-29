@@ -1,9 +1,15 @@
 # Site settings
 title: Estefanía López
 slogan: "- Bailarina"
-phone: "1234567"
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+phone: "+57 3022894250"
+email: estefania.lopez109@gmail.com
+share_image_path: '/uploads/retrato-cara-1.jpg'
+description: "Soy Estefanía Galindo López, ejecutante y creadora, trabajo para propiciar espacios de colectividad e interdisciplinariedad por medio las artes escénicas. Como bailarina creo que el cuerpo es un territorio en constante expansión. El movimiento me permite amplificar mis límites y traspasar las fronteras de la individualidad. Como directora pretendo conmover, es decir: moverse con otros."
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: instagram
+    url: 'https://www.instagram.com/estefanial96/'
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
